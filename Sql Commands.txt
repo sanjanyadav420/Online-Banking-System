@@ -1,0 +1,7 @@
+
+mysql> create database OnlineBankingSystem;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use OnlineBankingSystem;
+Database changed
+mysql>
