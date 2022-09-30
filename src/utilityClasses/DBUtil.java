@@ -12,7 +12,6 @@ public class DBUtil {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		String url="jdbc:mysql://localhost:3306/onlinebankingsystem";
@@ -20,7 +19,6 @@ public class DBUtil {
 		try {
 			conn=DriverManager.getConnection(url,"root","ohi number12@");
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
