@@ -1,0 +1,45 @@
+mysql> select * from accountant;
++---------------+------+
+| email         | pass |
++---------------+------+
+| act@gmail.com | 1234 |
++---------------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from customer;
++-----------+------------+----------------+-------+------+
+| actNo     | name       | email          | pass  | bal  |
++-----------+------------+----------------+-------+------+
+|  12021520 | n2         | n2@gmail.com   |  5349 | 1000 |
+| 123456789 | suhail ali | abhi@gmail.com | 54321 | 5500 |
++-----------+------------+----------------+-------+------+
+2 rows in set (0.00 sec)
+
+mysql> sele t * from data;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sele t * from data' at line 1
+mysql> select * from data;
++-----------+---------+
+| custAct   | balance |
++-----------+---------+
+|  12021520 |    1000 |
+| 123456789 |    5000 |
++-----------+---------+
+2 rows in set (0.06 sec)
+
+
+1.select * from Accountant
+2.insert into customer values(?,?,?,?,?)
+3.delete from customer where actNo=?
+4."select * from customer where actNo=?
+
+1select * from customer 
+2update customer set name=? where actNo=? 
+3.update customer set email=? where actNo=?
+4.update customer set pass=? where actNo=?
+5.select * from customer where actNo=? 
+6.update customer set bal=? where ActNo=?
+7.insert into data values(?,?)
+8.select * from customer where actNo=?
+9.update customer set bal=? where ActNo=? 
+10.select * from customer
+12.select * from data where custAct=?
