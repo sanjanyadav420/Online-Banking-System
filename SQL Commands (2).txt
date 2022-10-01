@@ -6,6 +6,8 @@ mysql> select * from accountant;
 +---------------+------+
 1 row in set (0.00 sec)
 
+
+
 mysql> select * from customer;
 +-----------+------------+----------------+-------+------+
 | actNo     | name       | email          | pass  | bal  |
@@ -25,13 +27,13 @@ mysql> select * from data;
 | 123456789 |    5000 |
 +-----------+---------+
 2 rows in set (0.06 sec)
-
+--------------------------------------------------------------------
 
 1.select * from Accountant
 2.insert into customer values(?,?,?,?,?)
 3.delete from customer where actNo=?
 4."select * from customer where actNo=?
-
+--------------------------------------------------------------
 1select * from customer 
 2update customer set name=? where actNo=? 
 3.update customer set email=? where actNo=?
