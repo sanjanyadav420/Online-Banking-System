@@ -45,3 +45,4 @@ mysql> select * from data;
 9.update customer set bal=? where ActNo=? 
 10.select * from customer
 12.select * from data where custAct=?
+=========================================================
