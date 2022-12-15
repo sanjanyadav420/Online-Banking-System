@@ -8,7 +8,7 @@
 2.insert into customer values(?,?,?,?,?)<br/>
 3.delete from customer where actNo=?<br/>
 4."select * from customer where actNo=?<br/>
-###--------------------------------------------------------------<br/>
+
 
 # 2.Customer
 1.select * from customer <br/>
