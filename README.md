@@ -22,4 +22,5 @@
 9.update customer set bal=? where ActNo=? <br/>
 10.select * from customer<br/>
 12.select * from data where custAct=?<br/>
-###=========================================================<br/>
+
+# .....Thank you ......
