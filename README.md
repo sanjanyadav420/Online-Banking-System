@@ -9,6 +9,8 @@
 3.delete from customer where actNo=?<br/>
 4."select * from customer where actNo=?<br/>
 ###--------------------------------------------------------------<br/>
+
+# 2.Customer
 1.select * from customer <br/>
 2update customer set name=? where actNo=? <br/>
 3.update customer set email=? where actNo=?<br/>
